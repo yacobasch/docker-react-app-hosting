@@ -9,6 +9,14 @@ function App() {
         <p>
           Change made by develope Davis. He is one of the best in the world.
         </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
       </header>
     </div>
   );
