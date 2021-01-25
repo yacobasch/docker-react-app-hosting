@@ -11,5 +11,6 @@ RUN npm run build
 
 # 2nd stage
 FROM nginx
+EXPOSE 80
 COPY --from=builderstage /app/build /usr/share/nginx/html
 #CMD ["nginx"]
